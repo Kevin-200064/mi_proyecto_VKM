@@ -60,7 +60,7 @@ class RepositorioMemoria(IRepositorio):
             return True
         return False
 
-class InventarioBotica:
+class Inventario:
 
     def __init__(self, repositorio: IRepositorio):
         self.repositorio = repositorio
